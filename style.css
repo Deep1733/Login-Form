@@ -11,12 +11,21 @@ body{
     background-position: center;
     background-size: cover;
     height: 100vh;
-    flex-direction: column;
+    fl
+    ex-direction: column;
+}
+.company{
+    width: 220px;
+    text-align: center;
+    padding-left: 11px;
+    font-size: 35px;
+    color: #ff0000;
+    margin-bottom: 20px;
 }
 
 .form{
     width: 250px;
-    height: 330px;
+    height: 500px;
     color: #fff;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;

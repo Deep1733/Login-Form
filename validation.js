@@ -1,6 +1,5 @@
 function myfunction(){
     var x =document.getElementById("pass");
-
     if(x.type === "password"){
         x.type = "text";
     }
@@ -13,18 +12,12 @@ function validate(){
     var password = document.getElementById("pass");
     var length = document.getElementById("length");
 
-    if(password.value.length >= 8){
+    if(password.value.length >= 6){
         alert("Login Succesfull");
         window.location.replace("newpage.html");
         return false;
     }
     else{
-        alert("Login Failed");
+        alert("Please check the credentials and try again");
     }
-}
-
-
-
-function lpage(){
-    window.location.replace("Landingpage.html")
 }
